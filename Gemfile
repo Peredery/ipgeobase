@@ -5,8 +5,8 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in ipgeobase.gemspec
 gemspec
 
+gem "nokogiri-happymapper"
 gem "rake"
-gem "happymapper"
 
 group :test, :development do
   gem "minitest"

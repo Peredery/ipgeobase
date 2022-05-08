@@ -1,4 +1,12 @@
 module Ipgeobase
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  def self.lookup(ip: String) -> void
+  
+  class Http
+    def get_response(ip: String) -> void
+  end
+
+  class Response
+    def self.parse(response: String) -> void
+  end
 end
